@@ -30,15 +30,15 @@ Les images Sentinel-2 utilisées correspondent aux dates du **9 juillet et du 7 
 
 Méthodologie
 
-### 1. Analyse temporelle des incendies
+1. Analyse temporelle des incendies
 
 Les détections de feux actifs VIIRS sont utilisées pour observer l'évolution quotidienne de l'activité entre le 26 et le 29 août 2026, ainsi que le contexte précédant cet épisode.
 
 Cette analyse permet de suivre la concentration et le regroupement spatial des foyers détectés.
 
-### 2. Délimitation des surfaces brûlées
+2. Délimitation des surfaces brûlées
 
-L'indice de végétation par différence normalisée (**NDVI**) est calculé à partir des bandes du proche infrarouge et du rouge de Sentinel-2.
+L'indice de végétation par différence normalisée (NDVI) est calculé à partir des bandes du proche infrarouge et du rouge de Sentinel-2.
 
 La différence entre les deux dates est ensuite utilisée pour repérer les zones présentant une baisse importante de l'activité végétale :
 
@@ -46,19 +46,19 @@ La différence entre les deux dates est ensuite utilisée pour repérer les zone
 
 Les zones identifiées sont ensuite filtrées et nettoyées afin de limiter les artefacts de détection.
 
-### 3. Estimation de la sévérité des brûlures
+3. Estimation de la sévérité des brûlures
 
-L'indice **NBR** est calculé à partir du proche infrarouge et de l'infrarouge à ondes courtes. Sa différence entre les dates avant et après incendie permet d'obtenir le **dNBR**.
+L'indice NBR est calculé à partir du proche infrarouge et de l'infrarouge à ondes courtes. Sa différence entre les dates avant et après incendie permet d'obtenir le dNBR.
 
 Les valeurs sont classées selon les seuils de référence retenus dans l'étude, issus de la convention USGS, afin de distinguer plusieurs niveaux de sévérité.
 
-### 4. Analyse de l'exposition du bâti
+4. Analyse de l'exposition du bâti
 
 Les bâtiments OpenStreetMap sont superposés au périmètre brûlé afin d'identifier ceux qui se trouvent dans les zones affectées.
 
 Leur typologie est complétée, lorsque cela est possible, à partir des données d'occupation du sol.
 
-**Important :** la présence d'un bâtiment dans le périmètre brûlé indique une exposition potentielle. Elle ne prouve pas que le bâtiment a effectivement été endommagé ou détruit.
+Important :** la présence d'un bâtiment dans le périmètre brûlé indique une exposition potentielle. Elle ne prouve pas que le bâtiment a effectivement été endommagé ou détruit.
 
 Principaux résultats
 
@@ -67,20 +67,8 @@ L'analyse met en évidence plusieurs éléments :
 - Les détections VIIRS montrent le regroupement de plusieurs foyers distincts le 26 août en un ensemble presque continu le 27 août, principalement à l'est de la wilaya de Jijel.
 - Les surfaces brûlées sont concentrées dans les premiers reliefs situés en arrière de la plaine littorale.
 - Les centres urbains de Béjaïa et de Jijel restent en dehors des principales surfaces brûlées identifiées.
-- Les plus grands ensembles brûlés à l'est de Jijel présentent majoritairement une sévérité élevée, tandis que le littoral de Béjaïa montre une distribution plus hétérogène.
+- Les surfaces brûlées à l'est de Jijel présentent majoritairement une sévérité élevée, tandis que le littoral de Béjaïa montre une distribution plus hétérogène.
 - Plus de 5 000 bâtiments OpenStreetMap sont recensés à l'intérieur du périmètre brûlé estimé.
-
-Ces résultats constituent un premier diagnostic spatial. L'estimation de l'exposition du bâti doit être distinguée d'une mesure des dommages réellement subis.
-
-Compétences mobilisées
-
-- Télédétection et traitement d'images satellitaires.
-- Calcul et interprétation d'indices spectraux : NDVI, NBR et dNBR.
-- Analyse temporelle des détections de feux actifs.
-- Traitement et analyse de données géographiques.
-- Croisement spatial entre surfaces brûlées et bâtiments.
-- Cartographie thématique et interprétation des résultats.
-- Utilisation de données géographiques ouvertes.
 
 Limites de l'étude
 
@@ -92,13 +80,10 @@ Les données OpenStreetMap peuvent être incomplètes, notamment concernant la p
 
 Les surfaces brûlées par wilaya, commune et classe de sévérité nécessitent également des croisements spatiaux complémentaires pour être quantifiées précisément.
 
-Contexte académique
 
-**Auteur :** Mohamed Soidridine
-**Formation :** Master 2 Géographie, Aménagement, Environnement et Développement (GAED), parcours Géomatique et Modélisation Spatiale (GMS)
-**Établissement :** Aix-Marseille Université
-**Date :** Octobre 2026
-
-## 📄 Rapport complet
+Auteur :** Mohamed Soidridine
+Formation :** Master 2 Géographie, Aménagement, Environnement et Développement (GAED), parcours Géomatique et Modélisation Spatiale (GMS)
+Établissement :** Aix-Marseille Université
+Date :** Octobre 2026
 
 Le rapport détaillé de l'étude sera disponible au format PDF dans ce dépôt.
