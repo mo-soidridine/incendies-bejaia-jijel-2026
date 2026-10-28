@@ -1,4 +1,4 @@
-# incendies-bejaia-jijel-2026
+Incendies-bejaia-jijel-2026
 Analyse satellitaire des incendies d'août 2026 à Béjaïa et Jijel : zones brûlées, sévérité et exposition du bâti.
 
 Analyse spatiale des surfaces brûlées, de la sévérité des incendies et de l'exposition du bâti à partir de données satellitaires ouvertes.**
