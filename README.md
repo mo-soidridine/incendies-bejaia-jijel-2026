@@ -81,10 +81,11 @@ Les données OpenStreetMap peuvent être incomplètes, notamment concernant la p
 Les surfaces brûlées par wilaya, commune et classe de sévérité nécessitent également des croisements spatiaux complémentaires pour être quantifiées précisément.
 
 Outils de traitement :
-QGIS
-VS Code
-Google Colab
-API Google Earth Engine
+
+- QGIS
+- VS Code
+- Google Colab
+- API Google Earth Engine
 
 
 Auteur :** Mohamed Soidridine
