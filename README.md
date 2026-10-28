@@ -86,4 +86,4 @@ Formation :** Master 2 Géographie, Aménagement, Environnement et Développemen
 Établissement :** Aix-Marseille Université
 Date :** Octobre 2026
 
-Le rapport détaillé de l'étude sera disponible au format PDF dans ce dépôt.
+Le rapport détaillé de l'étude est disponible au format PDF dans ce dépôt.
