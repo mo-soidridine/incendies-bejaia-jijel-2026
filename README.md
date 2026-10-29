@@ -88,9 +88,12 @@ Outils de traitement :
 - API Google Earth Engine
 
 
-Auteur :** Mohamed Soidridine
-Formation :** Master 2 Géographie, Aménagement, Environnement et Développement (GAED), parcours Géomatique et Modélisation Spatiale (GMS)
-Établissement :** Aix-Marseille Université
-Date :** Octobre 2026
+Auteur : Mohamed Soidridine
+
+Formation : Master 2 Géographie, Aménagement, Environnement et Développement (GAED), parcours Géomatique et Modélisation Spatiale (GMS)
+
+Établissement : Aix-Marseille Université
+
+Date : Octobre 2026
 
 Le rapport détaillé de l'étude est disponible au format PDF dans ce dépôt.
